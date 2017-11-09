@@ -1,0 +1,115 @@
+<html lang="br">
+<head>
+  <title>Cadastro de Visitantes</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="jumbotron text-left">
+  <h1>Cadastro de Visitantes</h1><P>
+  <form>
+    <div class="input-group input-group-sm" >
+      <input type="text" class="form-control" placeholder="Pesquisar" >
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form>
+  <hr><p>
+<table class="table" border="3">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>RG</th>
+		<th>Veículo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Exemplo</td>
+        <td>123.245.654-90</td>
+        <td>4567.887.453-0</td>
+		<td>AMD 1934</td>
+      </tr>      
+      <tr class="success">
+        <td>Exemplo2</td>
+        <td>123.456.789-0</td>
+        <td>234.876.908.-98</td>
+		<td>BSD 1674</td>
+      </tr>
+      <tr class="danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+		<td>def@somemail.com</td>
+      </tr>
+      <tr class="info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+		<td>def@somemail.com</td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+</div>
+<div class="container">
+  <h2>Dados do Visitante</h2>  
+<form action="/ola.php" method="post">
+    <div class="form-group row">
+      <div class="col-xs-2">
+        <label for="ex1">Nome</label>
+        <input class="form-control" id="ex1" type="text" required>
+      </div>
+      <div class="col-xs-3">
+        <label for="ex2">CPF</label>
+        <input class="form-control" id="ex2" type="text" required>
+      </div>
+      <div class="col-xs-4">
+        <label for="ex3">RG</label>
+        <input class="form-control" id="ex3" type="text" required>
+      </div>
+    <div class="form-group row">
+      <div class="col-xs-2">
+        <label for="ex1">Veíulo</label>
+        <input class="form-control" id="ex1" type="text" required>
+      </div> 		
+  
+<div class="container">
+  <h2>Dados da Unidade</h2>  
+
+    <div class="form-group row">
+      <div class="col-xs-2">
+        <label for="ex1">Bloco</label>
+        <input class="form-control" id="ex1" type="text" required>
+      </div>
+      <div class="col-xs-3">
+        <label for="ex2">Casa/Apartamento</label>
+        <input class="form-control" id="ex2" type="text" required>
+      </div>
+      <div class="col-xs-4">
+        <label for="ex3">Morador</label>
+        <input class="form-control" id="ex3" type="text" required>
+      </div>
+    <div class="form-group row">
+      <div class="col-xs-2">
+        <label for="ex1">Telefone</label>
+        <input class="form-control" id="ex1" type="text" required><p>
+		
+      </div>  
+		
+  </form>
+<div class="btn-group"></><p><p>
+    <button type="button" class="btn btn-primary">Adicionar</button>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <button type="button" class="btn btn-primary">Sair</button>
+  </div>
+</body>
+</html>
